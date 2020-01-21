@@ -11,4 +11,7 @@
   "profile": {
     "name": "typicode"
   }
+  "navs": [
+    {"order": [1], "navElements": [{1, "Test"}]
+  ]
 }
