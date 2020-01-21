@@ -14,7 +14,9 @@
   "navs": {
     "order": [1], 
     "navElements": [
-      {"id": 1, "name": "Test"}
+      { "id": 1, "name": "Test" },
+      { "id": 2, "name": "Test" }
+      
     ]
   }
 }
