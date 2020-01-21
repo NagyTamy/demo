@@ -12,6 +12,9 @@
     "name": "typicode"
   },
   "navs": {
-    "order": [1], "navElements": [{"id": 1, "name": "Test"}]
+    "order": [1], 
+    "navElements": [
+      {"id": 1, "name": "Test"}
+    ]
   }
 }
