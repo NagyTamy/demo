@@ -20,8 +20,8 @@
     ]
   },
   "templates":{
-    {"key": "Test1", "value": "value"},
-    {"key": "Test2", "value": "value"}
+    "key": "Test1", "value": "value",
+    "key": "Test2", "value": "value"
   }
 
  
