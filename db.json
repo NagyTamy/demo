@@ -18,5 +18,11 @@
       { "id": 2, "name": "Test2", "path": "test2" }
      
     ]
+  },
+  "templates":{
+    {"key": "Test1", "value": "value"},
+    {"key": "Test2", "value": "value"}
   }
+
+ 
 }
