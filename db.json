@@ -1,47 +1,82 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "navs": {
-    "order": [1, 2], 
-    "navElements": [
-      { "id": 1, "name": "Test1", "path": "test1" },
-      { "id": 2, "name": "Test2", "path": "test2" }
-     
-    ]
-  },
-  "templates":{
-    "itemTemplateMap":{
-      "Test1": {
-        "id": "1",
-        "displayName": "Test1",
-        "pathName": "test1",
-        "featureDefinitionMap": {
-          "nameInput":{
-            "name": "Inhibition"
-          }
-        }
-      },
-      "Test2": {
-        "id": "2",
-        "displayName": "Test2",
-        "pathName": "test2",
-        "featureDefinitionMap": {
-          "nameInput":{
-            "name": "Events"
-          }
-        }
-      }
-    }
-  }
-}
+	"posts": [{
+			"id": 1,
+			"title": "Post 1"
+		},
+		{
+			"id": 2,
+			"title": "Post 2"
+		},
+		{
+			"id": 3,
+			"title": "Post 3"
+		}
+	],
+	"comments": [{
+			"id": 1,
+			"body": "some comment",
+			"postId": 1
+		},
+		{
+			"id": 2,
+			"body": "some comment",
+			"postId": 1
+		}
+	],
+	"profile": {
+		"name": "typicode"
+	},
+	"navs": {
+		"order": [1, 2],
+		"navElements": [{
+				"id": 1,
+				"name": "Test1",
+				"path": "test1"
+			},
+			{
+				"id": 2,
+				"name": "Test2",
+				"path": "test2"
+			}
 
+		]
+	},
+	"templates": {
+		"itemTemplateMap": {
+			"Test1": {
+				"id": "1",
+				"displayName": "Test1",
+				"pathName": "test1",
+				"featureDefinitionMap": {
+					"nameInput": {
+						"name": "Inhibition"
+					}
+				}
+			},
+			"Test2": {
+				"id": "2",
+				"displayName": "Test2",
+				"pathName": "test2",
+				"featureDefinitionMap": {
+					"nameInput": {
+						"name": "Events"
+					}
+				}
+			}
+		}
+	},
+	"itemTemplate": {
+		"Test1": {
+			"id": "1",
+			"displayName": "Test1",
+			"pathName": "test1",
+			"featureDefinitionMap": {
+				"nameInput": {
+					"name": "Inhibition"
+				}
+			}
+		}
+
+
+	}
+}
