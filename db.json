@@ -39,7 +39,7 @@
 		}
 	},
 	"itemTemplate": {
-		"Test1": {
+		"1": {
 			"id": "1",
 			"displayName": "Test1",
 			"pathName": "test1",
