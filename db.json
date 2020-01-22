@@ -21,10 +21,26 @@
   },
   "templates":{
     "itemTemplateMap":{
-      "v1": {"value": "value"},
-      "v2": {"value": "value"}
+      "Test1": {
+        "id": "1",
+        "displayName": "Test1",
+        "pathName": "test1",
+        "featureDefinitionMap": {
+          "nameInput":{
+            "name": "Inhibition";
+          }
+        }
+      },
+      "Test2": {
+        "id": "2",
+        "displayName": "Test2",
+        "pathName": "test2",
+        "featureDefinitionMap": {
+          "nameInput":{
+            "name": "Events";
+          }
+        }
+      }
     }
   }
 
- 
-}
