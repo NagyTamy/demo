@@ -39,7 +39,7 @@
 		}
 	},
 	"itemTemplate": {
-			"id": "1",
+		{"id": "1",
 			"displayName": "Test1",
 			"pathName": "test1",
 			"featureDefinitionMap": {
@@ -47,6 +47,16 @@
 					"name": "Inhibition"
 				}
 			}
+		},
+		{"id": "2",
+			"displayName": "Test2",
+			"pathName": "test2",
+			"featureDefinitionMap": {
+				"nameInput": {
+					"name": "Events"
+				}
+			}
+		}
 
 
 	}
