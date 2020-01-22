@@ -38,8 +38,8 @@
 			}
 		}
 	},
-	"itemTemplate": {
-		{"id": "1",
+	"itemTemplate": [{
+			"id": "1",
 			"displayName": "Test1",
 			"pathName": "test1",
 			"featureDefinitionMap": {
@@ -48,7 +48,8 @@
 				}
 			}
 		},
-		{"id": "2",
+		{
+			"id": "2",
 			"displayName": "Test2",
 			"pathName": "test2",
 			"featureDefinitionMap": {
@@ -57,7 +58,5 @@
 				}
 			}
 		}
-
-
-	}
+	]
 }
