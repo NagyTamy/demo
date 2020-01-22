@@ -20,8 +20,10 @@
     ]
   },
   "templates":{
-    "key": "Test1", "value": "value",
-    "key": "Test2", "value": "value"
+    "itemTemplateMap":{
+      "key": "Test1", "value": "value",
+      "key": "Test2", "value": "value"
+    }
   }
 
  
