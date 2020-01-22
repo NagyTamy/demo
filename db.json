@@ -27,7 +27,7 @@
         "pathName": "test1",
         "featureDefinitionMap": {
           "nameInput":{
-            "name": "Inhibition";
+            "name": "Inhibition"
           }
         }
       },
@@ -37,7 +37,7 @@
         "pathName": "test2",
         "featureDefinitionMap": {
           "nameInput":{
-            "name": "Events";
+            "name": "Events"
           }
         }
       }
