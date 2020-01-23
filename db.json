@@ -16,7 +16,10 @@
 	},
 	"templates": {
 			"Test1": {
-				"id": "1",
+				"id": {
+					"id": 1,
+					"internalId": "#68:0"
+				    },
 				"displayName": "Test1",
 				"pathName": "test1",
 				"featureDefinitionMap": {
@@ -26,7 +29,10 @@
 				}
 			},
 			"Test2": {
-				"id": "2",
+				"id": {
+					"id": 2,
+					"internalId": "#68:4"
+				    },
 				"displayName": "Test2",
 				"pathName": "test2",
 				"featureDefinitionMap": {
@@ -37,7 +43,10 @@
 		}
 	},
 	"itemTemplate": [{
-			"id": "1",
+			"id": {
+				"id": 1,
+				"internalId": "#68:0"
+			    },
 			"displayName": "Test1",
 			"pathName": "test1",
 			"featureDefinitionMap": {
@@ -47,7 +56,10 @@
 			}
 		},
 		{
-			"id": "2",
+			"id": {
+				"id": 2,
+				"internalId": "#68:4"
+			    },
 			"displayName": "Test2",
 			"pathName": "test2",
 			"featureDefinitionMap": {
@@ -56,5 +68,17 @@
 				}
 			}
 		}
-	]
+	],
+	"processItem" : {
+			    "id": {
+				"id": 4,
+				"internalId": "#68:0"
+			    },
+			    "name": "An asset",
+			    "title": "A second title",
+			    "templateName": "HelloTemplate",
+			    "features": {
+				"department": "my department"
+			    }
+			}
 }
