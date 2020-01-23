@@ -5,7 +5,7 @@
 				"id": {
 					"id": 1,
 					"internalId": "#68:0"
-				    },
+				},
 				"name": "Test1",
 				"path": "test1"
 			},
@@ -13,7 +13,7 @@
 				"id": {
 					"id": 2,
 					"internalId": "#68:4"
-				    },
+				},
 				"name": "Test2",
 				"path": "test2"
 			}
@@ -21,38 +21,38 @@
 		]
 	},
 	"templates": {
-			"Test1": {
-				"id": {
-					"id": 1,
-					"internalId": "#68:0"
-				    },
-				"displayName": "Test1",
-				"pathName": "test1",
-				"featureDefinitionMap": {
-					"nameInput": {
-						"name": "Inhibition"
-					}
-				}
+		"Test1": {
+			"id": {
+				"id": 1,
+				"internalId": "#68:0"
 			},
-			"Test2": {
-				"id": {
-					"id": 2,
-					"internalId": "#68:4"
-				    },
-				"displayName": "Test2",
-				"pathName": "test2",
-				"featureDefinitionMap": {
-					"nameInput": {
-						"name": "Events"
-					}
+			"displayName": "Test1",
+			"pathName": "test1",
+			"featureDefinitionMap": {
+				"nameInput": {
+					"name": "Inhibition"
 				}
+			}
+		},
+		"Test2": {
+			"id": {
+				"id": 2,
+				"internalId": "#68:4"
+			},
+			"displayName": "Test2",
+			"pathName": "test2",
+			"featureDefinitionMap": {
+				"nameInput": {
+					"name": "Events"
+				}
+			}
 		}
 	},
 	"itemTemplate": [{
 			"id": {
 				"id": 1,
 				"internalId": "#68:0"
-			    },
+			},
 			"displayName": "Test1",
 			"pathName": "test1",
 			"featureDefinitionMap": {
@@ -65,7 +65,7 @@
 			"id": {
 				"id": 2,
 				"internalId": "#68:4"
-			    },
+			},
 			"displayName": "Test2",
 			"pathName": "test2",
 			"featureDefinitionMap": {
@@ -75,16 +75,32 @@
 			}
 		}
 	],
-	"processItem" : {
-			    "id": {
-				"id": 4,
-				"internalId": "#68:0"
-			    },
-			    "name": "An asset",
-			    "title": "A second title",
-			    "templateName": "Test1",
-			    "features": {
-				"department": "my department"
-			    }
+	"processItem": {
+		"id": {
+			"id": 4,
+			"internalId": "#68:0"
+		},
+		"name": "An asset",
+		"title": "A second title",
+		"templateName": "Test1",
+		"featureMap": [{
+				"example1": "my department"
+			},
+			{
+				"example2": "my department"
+			},
+			{
+				"example3": "my department"
+			},
+			{
+				"example4": "my department"
+			},
+			{
+				"example5": "my department"
+			},
+			{
+				"example6": "my department"
 			}
+		]
+	}
 }
