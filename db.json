@@ -15,7 +15,6 @@
 		]
 	},
 	"templates": {
-		"itemTemplateMap": {
 			"Test1": {
 				"id": "1",
 				"displayName": "Test1",
@@ -35,7 +34,6 @@
 						"name": "Events"
 					}
 				}
-			}
 		}
 	},
 	"itemTemplate": [{
