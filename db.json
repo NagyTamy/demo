@@ -82,7 +82,7 @@
 			    },
 			    "name": "An asset",
 			    "title": "A second title",
-			    "templateName": "HelloTemplate",
+			    "templateName": "Test1",
 			    "features": {
 				"department": "my department"
 			    }
