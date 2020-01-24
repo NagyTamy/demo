@@ -21,12 +21,12 @@
 		]
 	},
 	"templates": {
-		"Test1": {
+		"Inhibitions": {
 			"id": {
 				"id": 1,
 				"internalId": "#68:0"
 			},
-			"displayName": "Test1",
+			"displayName": "Inhibitions",
 			"pathName": "test1",
 			"featureDefinitionMap": {
 				"nameInput": {
@@ -34,12 +34,12 @@
 				}
 			}
 		},
-		"Test2": {
+		"Action": {
 			"id": {
 				"id": 2,
 				"internalId": "#68:4"
 			},
-			"displayName": "Test2",
+			"displayName": "Action",
 			"pathName": "test2",
 			"featureDefinitionMap": {
 				"nameInput": {
